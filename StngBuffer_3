@@ -1,0 +1,9 @@
+//Delete from the existing strinfg
+public class Main{
+public static void main(String[]args){
+
+StringBuffer Sb = new StringBuffer("Hello");
+Sb.delete(0,3);
+System.out.println("New String = "+Sb);
+   }
+}
